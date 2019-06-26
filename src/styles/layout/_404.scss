@@ -1,0 +1,48 @@
+.errorPage{
+  &__wrap{
+    height: calc(100vh - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+    &__number{
+      font-size: 180px;
+      text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.75);
+      font-weight: 700;
+    }
+    &__description{
+      flex-direction: column;
+      display: flex;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 35px;
+      line-height: 61px;
+      span{
+        font-weight: 700;
+      }
+    }
+    &__btn {
+      padding: 15px 30px;
+      background: #66c1c0;
+      color: #fff;
+      margin-top: 15px;
+    }
+  }
+}
+
+//.errorPage + .footer{
+//  position: fixed;
+//  width: 100%;
+//  bottom: 0;
+//}
+
+@media (max-width: 736px) {
+  .errorPage__wrap__number{
+      font-size: 150px;
+    }
+  .errorPage__wrap__description{
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

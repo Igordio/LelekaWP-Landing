@@ -1,0 +1,13 @@
+html, body{
+  overflow-x: hidden;
+}
+.container{
+  width: 1160px;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.menuopen {
+  overflow-y: hidden;
+  max-height: 100vh;
+}

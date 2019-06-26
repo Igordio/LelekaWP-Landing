@@ -1,0 +1,21 @@
+.hero{
+  margin: 100px 0 323px 0;
+  img{
+    position: relative;
+    left: 35px;
+  }
+  .section__wrap__description{
+    width: 100%;
+    max-width: 620px;
+  }
+}
+
+
+@media (max-width: 768px){
+  .hero{
+    margin: 80px 0 190px 0;
+  }
+  .hero .section__content__wrap{
+    align-items: center;
+  }
+}
